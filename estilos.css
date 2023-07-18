@@ -1,0 +1,89 @@
+@font-face {
+  font-family: fuenteNav;
+  src: url(./fonts/Calm\ Down\ Sampson.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a31015;
+}
+
+.navbar {
+  background-color: #ffe3e3 !important;
+  justify-content: center;
+}
+.navbar a {
+  color: #a31015;
+  text-align: center;
+  justify-content: center;
+  font-family: fuenteNav;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px #ffe3e3, -1px -1px 2px black, 0 0 5px #ffe3e3;
+}
+.navbar a:hover {
+  color: #c5484c;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: fuenteNav;
+  text-align: center;
+  color: #ffe3e3;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px #a31015, -1px -1px 2px black, 0 0 5px #a31015;
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: fuenteNav;
+  text-align: center;
+  color: #ffe3e3;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px #a31015, -1px -1px 2px black, 0 0 5px #a31015;
+}
+
+.filas {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.boton {
+  padding-top: 5px;
+  border: none;
+  padding-top: 5px;
+  background-color: #ffe3e3;
+  border-radius: 30px;
+  text-shadow: 1px 1px 2px #ffe3e3, -1px -1px 2px black, 0 0 5px #ffe3e3;
+  color: #a31015;
+  font-family: fuenteNav;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  width: 90%;
+  height: 70px;
+}
+
+.boton:hover {
+  color: #f5555a;
+  background-color: #ffbdbd;
+}
+
+li {
+  margin-top: 30px;
+  padding-top: 5px;
+  background-color: #ffe3e3;
+  color: #a31015;
+  font-family: fuenteNav;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  border-radius: 40px;
+  justify-content: center;
+  text-align: center;
+} /*# sourceMappingURL=estilos.css.map */
