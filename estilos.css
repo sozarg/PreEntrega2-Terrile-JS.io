@@ -75,6 +75,25 @@ h2 {
   background-color: #ffbdbd;
 }
 
+.botonaceptar {
+  padding-top: 5px;
+  border: none;
+  padding-top: 5px;
+  background-color: #ffe3e3;
+  border-radius: 30px;
+  text-shadow: 1px 1px 2px #ffe3e3, -1px -1px 2px black, 0 0 5px #ffe3e3;
+  color: #a31015;
+  font-family: fuenteNav;
+  font-size: 3em;
+  height: 70px;
+  width: 50px;
+}
+
+.botonaceptar:hover {
+  color: #f5555a;
+  background-color: #ffbdbd;
+}
+
 li {
   margin-top: 30px;
   padding-top: 5px;
@@ -86,4 +105,44 @@ li {
   border-radius: 40px;
   justify-content: center;
   text-align: center;
+}
+
+.resultado {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #a31015;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: fuenteNav;
+  font-size: 1.2em;
+  color: #a31015;
+}
+
+.error {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #c5484c;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: fuenteNav;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #a31015;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #c5484c;
 } /*# sourceMappingURL=estilos.css.map */

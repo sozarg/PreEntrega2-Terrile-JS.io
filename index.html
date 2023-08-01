@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="estilos.css" />
     <title>Matermos</title>
   </head>
+
   <body>
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Matermos</a>
@@ -20,17 +21,20 @@
     <h2>Mates</h2>
     <div class="row filas">
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="calcularPrecioMate()">
-          Ingresar la cantidad de Mates
-        </button>
+        <input
+          type="number"
+          id="cantidadMateInput"
+          placeholder="Cantidad mates"
+        />
+        <button id="calcularMateBtn" class="botonaceptar">INSERTAR</button>
       </div>
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="mostrarPrecioMate()">
+        <button id="mostrarMateBtn" class="boton">
           Precio de Mates ingresados
         </button>
       </div>
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="calcularPrecioTotal('mate')">
+        <button id="calcularTotalMateBtn" class="boton">
           Calcular el total
         </button>
       </div>
@@ -39,17 +43,20 @@
     <h2>Termos</h2>
     <div class="row filas">
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="calcularPrecioTermo()">
-          Ingresar la cantidad de Termos
-        </button>
+        <input
+          type="number"
+          id="cantidadTermoInput"
+          placeholder="Cantidad termos"
+        />
+        <button id="calcularTermoBtn" class="botonaceptar">INSERTAR</button>
       </div>
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="mostrarPrecioTermo()">
+        <button id="mostrarTermoBtn" class="boton">
           Precio de Termos ingresados
         </button>
       </div>
       <div class="col-12 col-md-4 mt-5">
-        <button class="boton" onclick="calcularPrecioTotal('termo')">
+        <button id="calcularTotalTermoBtn" class="boton">
           Calcular el total
         </button>
       </div>
@@ -58,9 +65,7 @@
     <h2>Precios (de mayor a menor)</h2>
     <div class="row filas">
       <div class="col-12 mt-5">
-        <button class="boton" onclick="filtrarPrecios()">
-          Calcular costos
-        </button>
+        <button id="filtrarPreciosBtn" class="boton">Calcular costos</button>
       </div>
       <div class="col-12 mt-2">
         <ul id="precios-lista"></ul>
